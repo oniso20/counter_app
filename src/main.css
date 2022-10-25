@@ -1,0 +1,36 @@
+main {
+    height: 83vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main #count {
+    margin-bottom: 3rem;
+    border: 1px solid black;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+} */
+
+main #count h1 {
+    display: flex;
+    padding: 10rem;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    background-color: bisque;
+}
+
+button {
+    background-color: #a98a0c;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin: 0.3rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
