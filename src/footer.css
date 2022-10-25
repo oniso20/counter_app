@@ -4,6 +4,6 @@ footer {
     align-items: center;
     margin: 1rem 1rem;
     padding-left: 20px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.611);
     color: white;
 }

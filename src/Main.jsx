@@ -1,20 +1,30 @@
-import React from "react";
+import React, {Component} from "react";
 
-const Main = () => {
+class Main extends Component {
+    state = {
+        counter: 0,
+    };
+
+    addOneHandler = () => {
+        this.setState({counter: this.state.counter + 1})
+    }
+
+    render() {
     return (
     <main>
         <div id="count">
-            <h1>0</h1>
+            <h1>{this.state.counter}</h1>
         </div>
         <div>
             <button>Add five</button>
-            <button>Add one</button>
+            <button onClick={this.addOneHandler}>Add one</button>
             <button>Reset</button>
             <button>Remove one</button>
             <button>Remove five</button>
         </div>
     </main>
     );
+}
 };
 
 export default Main;

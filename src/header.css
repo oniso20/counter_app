@@ -1,10 +1,10 @@
 header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin: 1rem 1rem;
     padding-left: 20px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.569);
     color: white;
 }
 

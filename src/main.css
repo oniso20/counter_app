@@ -1,19 +1,11 @@
 main {
-    height: 83vh;
+    height: 85vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-/* main #count {
-    margin-bottom: 3rem;
-    border: 1px solid black;
-    width: 30rem;
-    height: 30rem;
-    border-radius: 50%;
-} */
 
 main #count h1 {
     display: flex;
@@ -24,13 +16,23 @@ main #count h1 {
 }
 
 button {
-    background-color: #a98a0c;
-    border: none;
-    color: white;
-    padding: 8px 20px;
-    border-radius: 5px;
-    margin: 0.3rem;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    width: 6rem;
+    margin: 5px;
+    font-weight: bold;
+    padding: 5px 5px;
+    background-color: #6a2c03;
+    color: rgb(249, 243, 243);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    box-shadow: 0 .3em rgba(255, 228, 196, 0.462);
+    cursor: pointer;
+
+}
+
+button:active {
+    box-shadow: none;
+    position: relative;
+    top: .2em;
 }
