@@ -5,11 +5,12 @@ import './footer.css';
 import Header from './Header';
 import Footer from './Footer';
 import Main from './Main'
+import Button from './Button'
 
 const App = () => {
   return (
     <div>
-      <Header />
+      <Header name="Onis"/>
       <Main />
       <Footer />
     </div>
